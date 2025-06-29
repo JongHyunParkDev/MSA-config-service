@@ -1,7 +1,7 @@
 app:
   token:
     access:
-      expiration-hour: 1 # a hour
+      expiration-hour: 2 # a hour
       secret: qzXxcu0eMmiTljmLeiikLY3L2ULGDwbLbNMsvT/oEJ0lr3GGEtx4zVygOwZB94yM+HxmsTYyt09xe8WsxSUf1A==
     refresh:
       expiration-hour: 24 # a day
