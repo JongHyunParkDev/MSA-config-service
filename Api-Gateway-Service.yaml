@@ -2,7 +2,7 @@ app:
   token:
     access:
       expiration-hour: 1 # a hour
-      secret: qzXxcu0eMmiTljmLeiikLY3L2ULGDwbLbNMsvT/oEJ0lr3GGEtx4zVygOwZB94yM+HxmsTYyt09xe8WsxSUf1A==
+      secret: hBeI4FVNWKiTOnc06oXg6hMhBoD/No9N2+yHr8JQI5Yav3whOmGVLy7F4R4ZFUlS1lsprYT+PZCZ821S9LI5DA==
     refresh:
       expiration-hour: 24 # a day
       secret: ckoQEuWYg3fjSDsb30HPDK9xcTFogHpHkpgj7EBofs+/Ig5Y3CZ6I9gEKK1wcacDolQtukXFcAFJulWvRvCLdA==
