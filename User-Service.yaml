@@ -1,3 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/userservice
+    username: userservice
+    password: "{cipher}0e470ff00c8e1e95eab715cbc3942d7f534565df0af40433d925809e3c90db158921ecfd081571707ecab250dea6f912"
+
 app:
   token:
     access:
