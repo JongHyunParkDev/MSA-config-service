@@ -15,4 +15,4 @@ app:
 
 # Eureka 에 정의된 Application name 127.0.0.1:8000 -> order-service
 order_service:
-  url: http://order-service/order-service/%s/orders
+  url: http://ORDER-SERVICE/order-service/%s/orders
