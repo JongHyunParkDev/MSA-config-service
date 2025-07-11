@@ -14,5 +14,6 @@ app:
       secret: "{cipher}AYBlgP/av6GMscPongvmasPRcWTxhQh0KJblecQuhGCzMya0Wb6CvvYrDT14WpG1huOayXZTRjBtIIKpScpZL8OzNlkOCmzfRL/H+9F8R8PHKScaIq11twGErLy2EXvE+Y0Py0d8yzbIL54Bh0xmvgqlyOryOVCcXd8O5Tsde1NYiqxAWbgy2k/RiE5dNI7++xFkEum2yasvirw5xa9I6IUgf1ioypDpIOjsGAktFFG007x9MKFRCDTdvpR8kZdp/87dAnE9UEB7gUpDELgULw0uamRtgZItXiVtsTRzlY+gtHvxWrTurL4C5ztZWwEmERjLVe6wBt1iMb481VGWXFuEK6TqNO+AME4oPbP07FiwdHNSL6Ytu+nfOHg2SpqkELZY2TtL+KVBc9WJzDKVFV/RsMo7DcaokhYNHqPYNKoEt7fTfcqujDGbTsk/KX6Fp/7/MH2ubvxNw5b0m2A7QrdM3gZkn/9ZT79fw4KmcCRkFNiwk1HrYrHphgC1oYumpCGAFsy/MbrJMeSJb7p/yZqKFdtxIeqF4BJHWLFdbazarSXRML5rsIHe1pNwI9L3OYp36XTDXm1763IV0/C7XOu81nAHDjXMu7agmetbmnQAfrkGtQv/yucjZeggBTmU6TFqMQa8DjxgrNh4YylOEgXF"
 
 # Eureka 에 정의된 Application name 127.0.0.1:8000 -> order-service
+# API-GATEWAY 를 통해 바로 이동이 아님으로 ORDER-SERVICE 의 URL 를 따라가야한다.
 order_service:
-  url: http://ORDER-SERVICE/order-service/%s/orders
+  url: http://ORDER-SERVICE/%s/orders
